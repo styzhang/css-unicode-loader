@@ -1,6 +1,6 @@
 {
   "name": "css-unicode-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack loader for convert chinese string to unicode char in the scss/sass/less/css file",
   "main": "index.js",
   "scripts": {

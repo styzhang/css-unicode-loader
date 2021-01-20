@@ -25,25 +25,21 @@ module.exports = {
 
 ## Note
 
-This loader must be before sass-loader
+This loader must be before sass-loader if you used sass-loader and dart-sass
 
 ## Example
 
-```scss
-.scss {
-  &::after {
-    content: "中国"
-  }
+```css
+.scss::after {
+  content: "中国";
 }
 ```
 
 after loader handle
 
-```scss
-.scss {
-  &::after {
-    content: "\4e2d\56fd"
-  }
+```css
+.scss::after {
+  content: "\4e2d\56fd";
 }
 ```
 
