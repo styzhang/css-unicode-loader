@@ -1,0 +1,26 @@
+{
+  "name": "css-unicode-loader",
+  "version": "1.0.0",
+  "description": "webpack loader for convert chinese string to unicode char in the scss/sass/less/css file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styzhang/css-unicode-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "author": "styzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/styzhang/css-unicode-loader/issues"
+  },
+  "homepage": "https://github.com/styzhang/css-unicode-loader#readme",
+  "devDependencies": {
+    "loader-utils": "^2.0.0"
+  }
+}
