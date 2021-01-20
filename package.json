@@ -12,7 +12,8 @@
   },
   "keywords": [
     "webpack",
-    "loader"
+    "loader",
+    "css-unicode-loader"
   ],
   "author": "styzhang",
   "license": "MIT",
