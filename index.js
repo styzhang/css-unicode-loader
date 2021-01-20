@@ -1,8 +1,8 @@
-const CHINESE_REG = /[^\x00-\xff]/g;
+const UNICODE_MATCH_REG = /[^\x00-\xff]/g;
+const CONTENT_MATCH_REG = /content\s*:\s*/;
 module.exports = function (source) {
-	const pattern = CHINESE_REG;
-	if (pattern.test(source)) {
-		source = source.replace(pattern, function (m) {
+	if (CONTENT_MATCH_REG.test(source) && UNICODE_MATCH_REG.test(source)) {
+		source = source.replace(UNICODE_MATCH_REG, function (m) {
 			return "\\" + m.charCodeAt(0).toString(16);
 		});
 	}

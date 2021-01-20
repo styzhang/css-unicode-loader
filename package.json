@@ -1,7 +1,7 @@
 {
   "name": "css-unicode-loader",
-  "version": "1.0.1",
-  "description": "webpack loader for convert chinese string to unicode char in the scss/sass/less/css file",
+  "version": "1.0.2",
+  "description": "webpack loader for convert chinese or double-byte character string of scss/sass/less/css files to unicode char",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

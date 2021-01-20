@@ -1,6 +1,6 @@
 # css-unicode-loader
 
-webpack loader for convert chinese string to unicode char in the scss/sass/less/css file
+webpack loader for convert chinese or double-byte character string of scss/sass/less/css files to unicode char.
 
 ## Usage
 
