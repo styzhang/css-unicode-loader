@@ -1,6 +1,6 @@
 {
   "name": "css-unicode-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "webpack loader for convert chinese or double-byte character string of scss/sass/less/css files to unicode char",
   "main": "index.js",
   "scripts": {

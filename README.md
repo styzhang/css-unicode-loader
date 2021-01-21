@@ -4,6 +4,10 @@ webpack loader for convert chinese or double-byte character string of scss/sass/
 
 ## Usage
 
+```
+npm install --save-dev css-unicode-loader
+```
+
 if vue-cli 3+,  add the loader in the vue config file .
 
 ```js
