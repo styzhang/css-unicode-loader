@@ -1,6 +1,6 @@
 # css-unicode-loader
 
-webpack loader for convert chinese or double-byte character string of scss/sass/less/css files to unicode char.
+webpack loader for convert chinese or double-byte character string of scss/sass/less/css files to unicode encoding.
 
 ## Usage
 
@@ -27,6 +27,29 @@ module.exports = {
       });
     }
 }
+```
+
+if use webpack.config.js,  add the loader in the config file .
+
+```js
+// webpack.config.js
+module.exports = {
+  ...
+  module: {
+    rules: [{
+      test: /\.scss$/,
+      use: [{
+          loader: "style-loader" // Creates `style` nodes from JS strings
+      }, {
+          loader: "css-loader" // Translates CSS into CommonJS
+      }, {
+          loader: "css-unicode-loader" // Convert double-byte character to unicode encoding.
+      }, {
+          loader: "sass-loader" // Compiles Sass to CSS
+      }]
+    }]
+  }
+};
 ```
 
 ## Note
